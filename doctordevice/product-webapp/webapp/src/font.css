@@ -1,0 +1,8 @@
+/* src/fonts.css */
+
+@font-face {
+    font-family: 'Banger';
+    src: url('./assets/Bangers-Regular.ttf') format('ttf'),
+         url('./assets/banger-regular.woff') format('woff');
+    /* Add more file formats if necessary */
+  }

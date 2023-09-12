@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+        <module name="UserService" />
+        <module name="api-gateway" />
+        <module name="NotificationService" />
+        <module name="ServiceCenterService" />
+        <module name="BookingService" />
+        <module name="AuthenticationService" />
+        <module name="ReviewService" />
+        <module name="eureka-server" />
+        <module name="PaymentService" />
+        <module name="product-webapp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exploreease" target="11" />
+      <module name="TrackingService" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AuthenticationService" options="-parameters" />
+      <module name="BookingService" options="-parameters" />
+      <module name="NotificationService" options="-parameters" />
+      <module name="PaymentService" options="-parameters" />
+      <module name="ReviewService" options="-parameters" />
+      <module name="ServiceCenterService" options="-parameters" />
+      <module name="TrackingService" options="-parameters" />
+      <module name="UserService" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="product-webapp" options="-parameters" />
+    </option>
+  </component>
+</project>
